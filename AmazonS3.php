@@ -172,8 +172,8 @@ class AmazonS3 extends \yii\base\Component
     }
 
     /**
-     * Deletes objects from Amazon S3 that match the result of a ListObjects operation. For example,
-     * this allows you to do things like delete all objects that match a specific key prefix.
+     * Deletes objects from Amazon S3 that match the result of a ListObjects operation.
+     * For example,* this allows you to do things like delete all objects that match a specific key prefix.
      *
      * @param string $prefix - Optionally delete only objects under this key prefix
      * @param string $regex - Delete only objects that match this regex
