@@ -1,0 +1,21 @@
+{
+    "name": "Sect0R/yii2amazons3",
+    "type": "library",
+    "description": "Amazon S3 Client wrapper as Yii2 component",
+    "keywords": ["yii2-s3","yii2s3", "s3","yii2", "yii2-amazon"],
+    "homepage": "https://github.com/Sect0R/yii2amazons3",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sect0R",
+            "email": "odruslan@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "aws/aws-sdk-php": "2.6.*"
+    },
+    "autoload": {
+        "psr-4": { "Sect0R\\yii2amazons3\\": "" }
+    }
+}
